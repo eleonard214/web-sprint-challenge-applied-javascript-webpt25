@@ -33,7 +33,9 @@ const Header = (title, date, temp) => {
 
 
 const headerAppender = (selector) => {
-  header.appendChild(`${selector}`)
+  const selector=document.querySelector('.headerContainer')
+  selector.appendChild('Header')
+  
   };
   
   // TASK 2
