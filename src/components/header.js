@@ -1,20 +1,20 @@
 const Header = (title, date, temp) => {
-  const header= document.createElement('div')
-  header.classList.add('header')
+  const headerDiv= document.createElement('div')
+  headerDiv.classList.add('header')
 
   const spanDate = document.createElement('span')
   spanDate.classList.add('date')
   spanDate.textContent="date"
-  header.appendChild('spanDate')
+  headerDiv.appendChild('spanDate')
 
   const h1Title= document.createElement('h1')
   h1Title.textContent="Lambda Times"
-  header.appendChild('h1Title')
+  headerDiv.appendChild('h1Title')
 
   const spanTemp =document.createElement('span')
-  header.classList.add('temp')
+  spanTemp.classList.add('temp')
   spanTemp.textContent="temp"
-  header.appendChild('spanTemp')
+  headerDiv.appendChild('spanTemp')
 
   return header
 }
