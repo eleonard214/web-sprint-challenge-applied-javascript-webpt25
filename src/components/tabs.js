@@ -1,4 +1,9 @@
 const Tabs = (topics) => {
+  const tabs=document.createElement('div')
+  tabs.classList.add('tab')
+  tabs.textContent="topic"
+
+  
   // TASK 3
   // ---------------------
   // Implement this function which takes an array of strings ("topics") as its only argument.
